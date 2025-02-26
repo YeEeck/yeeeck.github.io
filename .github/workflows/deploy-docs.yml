@@ -37,7 +37,7 @@ jobs:
           corepack enable
           pnpm config list
           pnpm install --frozen-lockfile
-          printf '\e[B \n y\n' | pnpm approve-builds
+          printf '\e[B y\n' | pnpm approve-builds
 
       - name: 构建文档
         env:
