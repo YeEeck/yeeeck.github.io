@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://yeeeck.github.io/YeEeck/YeEeck/sitemap.xml
