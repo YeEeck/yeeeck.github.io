@@ -35,9 +35,9 @@ jobs:
       - name: 安装依赖
         run: |
           corepack enable
+          PNPM_SCRIPT_MODE=enable
           pnpm approve-builds
           pnpm install --frozen-lockfile
-          printf '\e[B \n y \n' | pnpm approve-builds
 
       - name: 构建文档
         env:
