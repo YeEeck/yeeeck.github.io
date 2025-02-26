@@ -35,7 +35,6 @@ jobs:
       - name: 安装依赖
         run: |
           corepack enable
-          pnpm approve-builds --all
           pnpm approve-builds
           pnpm install --frozen-lockfile
 
