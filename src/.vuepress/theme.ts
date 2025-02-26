@@ -13,7 +13,7 @@ export default hopeTheme({
 
   logo: "assets/images/logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "YeEeck/YeEeck",
 
   docsDir: "src",
 
