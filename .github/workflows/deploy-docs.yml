@@ -36,8 +36,8 @@ jobs:
         run: |
           corepack enable
           pnpm config list
-          pnpm approve-builds
           pnpm install --frozen-lockfile
+          pnpm approve-builds
 
       - name: 构建文档
         env:
