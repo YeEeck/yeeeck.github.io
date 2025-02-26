@@ -4,16 +4,16 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://yeeeck.github.io/YeEeck/",
+  hostname: "https://blog.yeck.xyz",
 
   author: {
     name: "YeEeck",
-    url: "https://yeeeck.github.io/YeEeck/",
+    url: "https:/blog.yeck.xyz",
   },
 
   logo: "assets/images/logo.png",
 
-  repo: "YeEeck/YeEeck",
+  repo: "YeEeck/yeeeck.github.io",
 
   docsDir: "src",
 
