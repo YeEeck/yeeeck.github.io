@@ -5,7 +5,7 @@ import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
+  base: "/YeEeck/",
 
   plugins: [
     slimsearchPlugin({
