@@ -17,7 +17,7 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "硬件",
+      text: "硬件与上位机",
       icon: "book",
       prefix: "posts/hardware",
       children: "structure",
