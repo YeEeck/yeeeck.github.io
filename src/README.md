@@ -7,7 +7,7 @@ heroImage: "assets/images/logo.png"
 heroText: YeEeck
 heroFullScreen: true
 bgImage: "assets/images/home.jpg"
-tagline: Do a little everyday.
+tagline: A little effort every day.
 # projects:
 #   - icon: folder-open
 #     name: 项目名称
