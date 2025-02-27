@@ -29,4 +29,8 @@ export default defineUserConfig({
       // },
     }),
   ],
+
+  head: [
+    ['meta', {name: 'msvalidate.01', content:'7A04E690C9B59FBFCD7F261E8E343633'}]
+  ]
 });
