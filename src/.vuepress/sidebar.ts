@@ -16,6 +16,12 @@ export default sidebar({
       prefix: "posts/frontend",
       children: "structure",
     },
+    {
+      text: "硬件",
+      icon: "book",
+      prefix: "posts/hardware",
+      children: "structure",
+    },
     "intro",
   ],
 });
