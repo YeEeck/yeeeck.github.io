@@ -77,10 +77,10 @@ Status/Com字段的bit3值用来辨别以何种形式组合，而这16帧SENT报
 与上一种情况不同的是，此情况下使用18帧SENT报文组合来传输附加信息，起始标志是Status/Com字段bit3连续为1111110，并且要求Status/Com字段bit3组合的第13和第18位都为0。
 而数据域依然由18帧SENT报文的Status/Com字段的bit2值组合而成，但其数据组成又根据Status/Com字段bit3组合的第8位的不同分为2种情况[^3]。
 ### Status/Com字段bit3组合的第8位为0
-Status/Com字段bit3组合的9~12bit和14~17bit分别作为8bit ID的高4位和低4位数据，而Status/Com字段bit2组合的1~6bit是6bit的CRC数据，之后的7~18bit则为要传输的12bit的数据[^3]。
+Status/Com字段bit3组合的9\~12bit和14\~17bit分别作为8bit ID的高4位和低4位数据，而Status/Com字段bit2组合的1\~6bit是6bit的CRC数据，之后的7\~18bit则为要传输的12bit的数据[^3]。
 ![SENT_SerialDataTypeA](SENT_SerialDataTypeA.png)
 ### Status/Com字段bit3组合的第8位为1
-Status/Com字段bit3组合的9~12bit为4bit ID，而Status/Com字段bit2组合的1~6bit是6bit的CRC数据，之后的7~18bit和bit3组合的14~17bit则组合为要传输的16bit的数据[^3]。
+Status/Com字段bit3组合的9\~12bit为4bit ID，而Status/Com字段bit2组合的1\~6bit是6bit的CRC数据，之后的7\~18bit和bit3组合的14\~17bit则组合为要传输的16bit的数据[^3]。
 ![SENT_SerialDataTypeB](SENT_SerialDataTypeB.png)
 
 

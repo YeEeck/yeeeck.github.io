@@ -7,6 +7,17 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/",
 
+  
+
+  lang: "zh-CN",
+  title: "YeEeck's Blog",
+  description: "Every day do a little",
+
+  theme,
+
+  // 和 PWA 一起启用
+  // shouldPrefetch: false,
+
   plugins: [
     slimsearchPlugin({
       // 配置项
@@ -18,13 +29,4 @@ export default defineUserConfig({
       // },
     }),
   ],
-
-  lang: "zh-CN",
-  title: "YeEeck's Blog",
-  description: "Every day do a little",
-
-  theme,
-
-  // 和 PWA 一起启用
-  // shouldPrefetch: false,
 });
