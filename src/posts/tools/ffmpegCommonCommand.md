@@ -43,6 +43,7 @@ ffmpeg -ss 10 -t 15 -i input.mp4 -c:v libx264 -c:a aac -strict experimental -b:a
 ### 关键帧切割
 
 -segment_times 后时间可任意调节，逗号分隔
+相关文章：[用ffmpeg的-segment_times等参数进行关键帧无损视频分割(剪切)，扔掉-ss,-t,-to参数！](https://bbs.kafan.cn/thread-2210091-1-1.html)
 
 ``` bash
 ffmpeg.exe -i "In.mp4" -f segment -segment_times 00:00:06.165,00:00:14.293 -c copy -map 0 "Out_%%02d.mp4"
