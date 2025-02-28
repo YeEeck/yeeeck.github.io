@@ -39,3 +39,11 @@ ffmpeg -ss 10 -t 15 -accurate_seek -i input.mp4 -codec copy -avoid_negative_ts 1
 ``` bash
 ffmpeg -ss 10 -t 15 -i input.mp4 -c:v libx264 -c:a aac -strict experimental -b:a 256k output.mp4
 ```
+
+### 关键帧切割
+
+-segment_times 后时间可任意调节，逗号分隔
+
+``` bash
+ffmpeg.exe -i "In.mp4" -f segment -segment_times 00:00:06.165,00:00:14.293 -c copy -map 0 "Out_%%02d.mp4"
+```
