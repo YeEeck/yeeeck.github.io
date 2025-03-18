@@ -17,9 +17,15 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "硬件与上位机",
+      text: "硬件",
       icon: "famicons:hardware-chip-sharp",
       prefix: "posts/hardware",
+      children: "structure",
+    },
+    {
+      text: "MCU开发",
+      icon: "famicons:hardware-chip-sharp",
+      prefix: "posts/mcu",
       children: "structure",
     },
     {

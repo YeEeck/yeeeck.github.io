@@ -3,11 +3,21 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
-    text: "硬件与上位机",
+    text: "硬件",
     icon: "famicons:hardware-chip-sharp",
     prefix: "/posts/hardware/",
     children: [
       "SentIntroduce"
+    ],
+  },
+  {
+    text: "MCU开发",
+    icon: "famicons:hardware-chip-sharp",
+    prefix: "posts/mcu",
+    children: [
+      "Stm32AdcDmaManual",
+      "Stm32MpuUseManual",
+      "Stm32H743MemStructure"
     ],
   },
   {
