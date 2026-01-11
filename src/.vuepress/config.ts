@@ -1,10 +1,12 @@
 import { defineUserConfig } from "vuepress";
 import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
+import { viteBundler } from '@vuepress/bundler-vite'
 //import { cut } from 'nodejs-jieba'
 
 import theme from "./theme.js";
 
 export default defineUserConfig({
+  bundler: viteBundler(),
   base: "/",
 
   
